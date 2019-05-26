@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <title>CSS Website Layout</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
-    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
 <body>
@@ -18,11 +18,14 @@
             </div>
             <div class="text">
                 <h3>NGÀNH GIÁO DỤC VÀ ĐÀO TẠO THÀNH PHỐ HỒ CHÍ MINH</h3>
-                <p>TRUNG HỌC PHỔ THÔNG NAM KỲ KHỞI NGHĨA</p>
+                <p><b>TRUNG HỌC PHỔ THÔNG NAM KỲ KHỞI NGHĨA</b></p>
             </div>
         </div>
         <div class="column-2" style="background-color:transparent;">
-          <img class="banner-school" src="images/hinh-header.jpg">
+            <label class="label-contact"><i class="fas fa-phone-volume"></i>  (0932).043.224&nbsp;&nbsp;&nbsp;
+                <i class="far fa-envelope"></i>  thptnamkykhoinghia.com
+            </label>
+            <img class="banner-school" src="images/hinh-header.jpg">
         </div>
 
     </div>
@@ -32,15 +35,27 @@
     <a href="#home">Trang chủ</a>
     <div class="dropdown">
         <button class="dropbtn">Tin tức và sự kiện
-            <i href="https://fontawesome.com/icons/angle-double-down?style=solid" class="fas fa-angle-double-down"></i>    </button>
+            <i class="fas fa-caret-down"></i>
+        </button>
         <div class="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
         </div>
-    </div><div class="dropdown">
-        <button class="dropbtn">Dropdown
-            <i href="https://fontawesome.com/icons/angle-double-down?style=solid" class="fas fa-angle-double-down"></i>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Giới thiệu
+            <i class="fas fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Thông báo
+            <i class="fas fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
             <a href="#">Link 1</a>
@@ -51,9 +66,14 @@
 </div>
 <div class="row">
     <div class="leftcolumn">
-        <div class="card">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
+        <div class="card main-content">
+            <h2>TIN TỨC VÀ SỰ KIỆN</h2>
+            <h5>Ngày 26,tháng 5 năm 2019</h5>
+            <div class="fakeimg" style="height:400px;">
+                <img class="content-img" src="images/khai-giang.jpg">
+            </div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         </div>
         <div class="card">
             <h2>TITLE HEADING</h2>
@@ -81,18 +101,8 @@
         </div>
     </div>
 </div>
-
 <div class="footer">
-    <h2>
-      Trường THPT Nam Kỳ Khởi Nghĩa  
-    </h2>
-    <h4>
-        Địa chỉ: 269/8 Nguyễn Thị Nhỏ, F16, Quận 11, Tp.Hồ Chí Minh<br />
-        hotline: 028 3969 2022 
-    </h4>
-    <div class="hf">
-        <img src="images/footer.jpg"/>
-    </div>
+    <h2>Footer</h2>
 </div>
 </body>
 </html>
