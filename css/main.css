@@ -34,3 +34,40 @@ body {
     background-color: #ddd;
     color: black;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+    display: flex;
+
+}
+.text{
+    text-align:center;
+}
+.column-2{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+}
+.logo{
+    height:100px;
+    width:100px;
+}
+.logo-column{
+    text-align: left;
+}
+.text h3{
+    color:red;
+    text-shadow: 2px 2px 2px #fff;
+    margin-bottom:2px;
+}
+.text p{
+    margin-top:0px
+}
