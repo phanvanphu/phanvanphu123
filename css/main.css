@@ -114,7 +114,6 @@ body {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content a {
@@ -134,6 +133,7 @@ body {
     display: block;
 }
 .banner-school{
+    z-index: 1;
     border-radius: 15px 0px 10px 0px;
     width:500px;
     height:100px;
@@ -163,14 +163,14 @@ body {
 .fakeimg {
     background-color: #aaa;
     width: 100%;
-    padding: 20px;
+    padding: 5px;
 }
 
 /* Add a card effect for articles */
 .card {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* Clear floats after the columns */
@@ -186,4 +186,17 @@ body {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+}
+.label-contact{
+    padding-left: 10px;
+    position: absolute;
+    top:10px;
+    color:white;
+}
+.content-img{
+    height:390px;
+    width:860px;
+}
+.main-content{
+    margin-left: 50px;
 }
