@@ -163,7 +163,7 @@ body {
 .fakeimg {
     background-color: #aaa;
     padding: 5px;
-    width:860px;
+    width:100%;
 }
 
 /* Add a card effect for articles */
@@ -181,12 +181,6 @@ body {
 }
 
 /* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
 .label-contact{
     padding-left: 10px;
     position: absolute;
@@ -204,7 +198,7 @@ body {
 .footer {
     padding: 20px;
     text-align: left;
-    background-image: linear-gradient(green,white);
+    background-image: linear-gradient(white,green);
     margin-top: 20px;
 }
 .hf {
@@ -212,4 +206,71 @@ body {
     padding-top: 8px;
     float: left;
     padding-right: 30px;
+}
+.main-footer{
+    text-align: left;
+    display:flex;
+    margin-left:50px;
+}
+.text-footer{
+    padding-left: 10px;
+}
+a{
+    color:#0e4803;
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+.header-card{
+    border-bottom: 2px solid olivedrab;
+    margin-bottom:10px;
+
+}
+.img-valign {
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+    height:50px;
+}
+
+.text1 {
+    font-size: 44px;
+}
+
+.text2 {
+    font-size: 24px;
+}
+.flex{
+    display:flex;
+}
+.text-activity{
+    padding:5px
 }
