@@ -162,8 +162,8 @@ body {
 /* Fake image */
 .fakeimg {
     background-color: #aaa;
-    width: 100%;
     padding: 5px;
+    width:860px;
 }
 
 /* Add a card effect for articles */
@@ -195,7 +195,7 @@ body {
 }
 .content-img{
     height:390px;
-    width:860px;
+    width: 100%;
 }
 .main-content{
     margin-left: 50px;
