@@ -163,8 +163,7 @@ body {
 .fakeimg {
     background-color: #aaa;
     padding: 5px;
-    width: 300px;
-    height: 200px;
+    width:100%;
 }
 
 /* Add a card effect for articles */
